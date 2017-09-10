@@ -9,3 +9,4 @@ if __name__ == '__main__':
 	login_dlg = LoginDialog.LoginDialog(None)
 	login_dlg.Show()
 	app.MainLoop()
+	

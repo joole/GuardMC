@@ -40,11 +40,11 @@
             <property name="font"></property>
             <property name="hidden">0</property>
             <property name="id">wxID_ANY</property>
-            <property name="maximum_size"></property>
-            <property name="minimum_size"></property>
+            <property name="maximum_size">231,242</property>
+            <property name="minimum_size">231,242</property>
             <property name="name">LoginDialog</property>
             <property name="pos"></property>
-            <property name="size">249,234</property>
+            <property name="size">231,242</property>
             <property name="style">wxDEFAULT_DIALOG_STYLE</property>
             <property name="subclass"></property>
             <property name="title">【守护模拟测试客户端】</property>
@@ -67,7 +67,7 @@
             <event name="OnHibernate"></event>
             <event name="OnIconize"></event>
             <event name="OnIdle"></event>
-            <event name="OnInitDialog"></event>
+            <event name="OnInitDialog">OnInitDialog</event>
             <event name="OnKeyDown"></event>
             <event name="OnKeyUp"></event>
             <event name="OnKillFocus"></event>
@@ -217,11 +217,11 @@
                         <property name="id">wxID_ANY</property>
                         <property name="max_size"></property>
                         <property name="maximize_button">0</property>
-                        <property name="maximum_size"></property>
+                        <property name="maximum_size">100,-1</property>
                         <property name="maxlength"></property>
                         <property name="min_size"></property>
                         <property name="minimize_button">0</property>
-                        <property name="minimum_size"></property>
+                        <property name="minimum_size">100,-1</property>
                         <property name="moveable">1</property>
                         <property name="name">m_txtCtrl_ServerAddr</property>
                         <property name="pane_border">1</property>
@@ -232,7 +232,7 @@
                         <property name="pos"></property>
                         <property name="resize">Resizable</property>
                         <property name="show">1</property>
-                        <property name="size"></property>
+                        <property name="size">100,-1</property>
                         <property name="style"></property>
                         <property name="subclass"></property>
                         <property name="toolbar_pane">0</property>
@@ -391,11 +391,11 @@
                         <property name="id">wxID_ANY</property>
                         <property name="max_size"></property>
                         <property name="maximize_button">0</property>
-                        <property name="maximum_size"></property>
+                        <property name="maximum_size">100,-1</property>
                         <property name="maxlength"></property>
                         <property name="min_size"></property>
                         <property name="minimize_button">0</property>
-                        <property name="minimum_size"></property>
+                        <property name="minimum_size">100,-1</property>
                         <property name="moveable">1</property>
                         <property name="name">m_textCtrl_ServerPort</property>
                         <property name="pane_border">1</property>
@@ -406,7 +406,7 @@
                         <property name="pos"></property>
                         <property name="resize">Resizable</property>
                         <property name="show">1</property>
-                        <property name="size"></property>
+                        <property name="size">100,-1</property>
                         <property name="style"></property>
                         <property name="subclass"></property>
                         <property name="toolbar_pane">0</property>
@@ -565,11 +565,11 @@
                         <property name="id">wxID_ANY</property>
                         <property name="max_size"></property>
                         <property name="maximize_button">0</property>
-                        <property name="maximum_size"></property>
+                        <property name="maximum_size">100,-1</property>
                         <property name="maxlength"></property>
                         <property name="min_size"></property>
                         <property name="minimize_button">0</property>
-                        <property name="minimum_size"></property>
+                        <property name="minimum_size">100,-1</property>
                         <property name="moveable">1</property>
                         <property name="name">m_textCtrl_OrgID</property>
                         <property name="pane_border">1</property>
@@ -580,7 +580,7 @@
                         <property name="pos"></property>
                         <property name="resize">Resizable</property>
                         <property name="show">1</property>
-                        <property name="size"></property>
+                        <property name="size">100,-1</property>
                         <property name="style"></property>
                         <property name="subclass"></property>
                         <property name="toolbar_pane">0</property>
@@ -739,11 +739,11 @@
                         <property name="id">wxID_ANY</property>
                         <property name="max_size"></property>
                         <property name="maximize_button">0</property>
-                        <property name="maximum_size"></property>
+                        <property name="maximum_size">100,-1</property>
                         <property name="maxlength"></property>
                         <property name="min_size"></property>
                         <property name="minimize_button">0</property>
-                        <property name="minimum_size"></property>
+                        <property name="minimum_size">100,-1</property>
                         <property name="moveable">1</property>
                         <property name="name">m_textCtrl_Uid</property>
                         <property name="pane_border">1</property>
@@ -754,7 +754,7 @@
                         <property name="pos"></property>
                         <property name="resize">Resizable</property>
                         <property name="show">1</property>
-                        <property name="size"></property>
+                        <property name="size">100,-1</property>
                         <property name="style"></property>
                         <property name="subclass"></property>
                         <property name="toolbar_pane">0</property>
@@ -913,11 +913,11 @@
                         <property name="id">wxID_ANY</property>
                         <property name="max_size"></property>
                         <property name="maximize_button">0</property>
-                        <property name="maximum_size"></property>
+                        <property name="maximum_size">100,-1</property>
                         <property name="maxlength"></property>
                         <property name="min_size"></property>
                         <property name="minimize_button">0</property>
-                        <property name="minimum_size"></property>
+                        <property name="minimum_size">100,-1</property>
                         <property name="moveable">1</property>
                         <property name="name">m_textCtrl_Pwd</property>
                         <property name="pane_border">1</property>
@@ -928,7 +928,7 @@
                         <property name="pos"></property>
                         <property name="resize">Resizable</property>
                         <property name="show">1</property>
-                        <property name="size"></property>
+                        <property name="size">100,-1</property>
                         <property name="style">wxTE_PASSWORD</property>
                         <property name="subclass"></property>
                         <property name="toolbar_pane">0</property>
@@ -1060,8 +1060,8 @@
                 </object>
                 <object class="sizeritem" expanded="0">
                     <property name="border">5</property>
-                    <property name="flag">wxALL</property>
-                    <property name="proportion">0</property>
+                    <property name="flag">wxALL|wxEXPAND</property>
+                    <property name="proportion">1</property>
                     <object class="wxButton" expanded="0">
                         <property name="BottomDockable">1</property>
                         <property name="LeftDockable">1</property>

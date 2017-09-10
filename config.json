@@ -1,7 +1,7 @@
 {
 	"server_addr":"172.24.140.53",
-	"server_port":9999,
+	"server_port": 9999,
 	"server_org" : "ndtest",
-	"user_name"  : "121416"，
+	"user_name"  :  "121416",
 	"user_pwd"   : "zsy19851005"
 }
